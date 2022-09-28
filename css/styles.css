@@ -1,0 +1,32 @@
+body {
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+background-color: #fff;
+color: #757575;
+}
+
+
+
+ul {
+    list-style: none;
+}
+/* logo*/
+.Web{
+color: #2196F3;
+}
+
+.Studio{
+    color: #000000;
+}
+
+.site-nav .link {
+    color: #212121;
+}
+/* nav */
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+}
+
+.
