@@ -66,4 +66,61 @@ ul {
     cursor: pointer;
 }
 
-.
+.particular-title {
+    color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.project-title {
+    color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-titel {
+    color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.name {
+    color: #212121; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+/* footer */
+.page-footer {
+    background-color: #2F303A;
+}
+
+.street {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.address-page {
+    color: #757575;
+}
+
+.address-page .link:hover
+.address-page .link:focus {
+    color: #2196F3;
+}
+
