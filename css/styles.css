@@ -74,7 +74,7 @@ ul {
     line-height: 1.14;
 }
 
-.project-title {
+.work-title {
     color: #212121;
     font-style: normal;
     font-weight: 700;
@@ -84,6 +84,11 @@ ul {
 
 .team {
     background-color: #F5F4FA;
+    color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
 }
 
 .team-titel {
@@ -115,12 +120,34 @@ ul {
     line-height: 1.71;
 }
 
-.address-page {
+.address-page .link {
     color: #757575;
 }
 
-.address-page .link:hover
+.address-page .link:hover,
 .address-page .link:focus {
     color: #2196F3;
 }
 
+.main-button {
+    color:#212121 ;
+    background-color: #F5F4FA;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.main-button:hover,
+.main-button:focus {
+    color: #fff;
+    background-color: #2196F3;
+}
+
+.project-titel{
+    color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
