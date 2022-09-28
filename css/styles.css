@@ -12,21 +12,58 @@ ul {
 }
 /* logo*/
 .Web{
-color: #2196F3;
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .Studio{
     color: #000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
+/* nav */
 .site-nav .link {
     color: #212121;
 }
-/* nav */
+
 
 .site-nav .link:hover,
 .site-nav .link:focus{
     color: #2196F3;
+}
+
+.auth-nav .link{
+    color: #757575;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus{
+    color: #2196F3;
+}
+
+.hero {
+    background-color:#2F303A;
+}
+.hero-title{
+    color: #fff;
+}
+
+.hero-button {
+    color: #fff;
+    background-color: #2196F3;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16;
+    line-height: 2;
+    cursor: pointer;
 }
 
 .
