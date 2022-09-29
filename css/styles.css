@@ -1,6 +1,5 @@
 body {
 font-family: 'Roboto', sans-serif;
-font-family: 'Raleway', sans-serif;
 background-color: #fff;
 color: #757575;
 }
@@ -32,6 +31,7 @@ ul {
 /* nav */
 .site-nav .link {
     color: #212121;
+    text-decoration: none;
 }
 
 
@@ -42,6 +42,7 @@ ul {
 
 .auth-nav .link{
     color: #757575;
+    text-decoration: none;
 }
 
 .auth-nav .link:hover,
@@ -122,6 +123,7 @@ ul {
 
 .address-page .link {
     color: #757575;
+    text-decoration: none;
 }
 
 .address-page .link:hover,
