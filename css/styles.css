@@ -32,6 +32,11 @@ ul {
 .site-nav .link {
     color: #212121;
     text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 
@@ -43,6 +48,11 @@ ul {
 .auth-nav .link{
     color: #757575;
     text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .auth-nav .link:hover,
