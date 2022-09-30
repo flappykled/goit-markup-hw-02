@@ -47,11 +47,13 @@ a {
 
 
 .site-nav .link:hover,
-.site-nav .link:focus,
-.site-nav .link:active {
+.site-nav .link:focus {
     color: var(--bluebrand-clor);
 }
 
+.site-nav .link.current {
+    color: var(--bluebrand-clor);
+}
 
 .auth-nav .link {
     color: var(--discription-color);
@@ -152,7 +154,7 @@ a {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;
+    line-height: 1.2;
 }
 
 .main-button {
