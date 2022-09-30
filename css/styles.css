@@ -47,13 +47,11 @@ a {
 
 
 .site-nav .link:hover,
-.site-nav .link:focus {
-    color: var(--bluebrand-clor);
-}
-
+.site-nav .link:focus,
 .site-nav .link:active {
     color: var(--bluebrand-clor);
 }
+
 
 .auth-nav .link {
     color: var(--discription-color);
@@ -139,6 +137,7 @@ a {
 }
 
 .address-page .link {
+    font-style: normal;
     color:rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
