@@ -47,7 +47,7 @@ a {
 
 
 .site-nav .link:hover,
-.site-nav .link:focus,
+.site-nav .link:focus
 .site-nav .link:active {
     color: var(--bluebrand-clor);
 }
@@ -137,7 +137,6 @@ a {
 }
 
 .address-page .link {
-    font-style: normal;
     color:rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
@@ -146,6 +145,14 @@ a {
 .address-page .link:hover,
 .address-page .link:focus {
     color: var(--bluebrand-clor);
+}
+
+.studio-footer{
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .main-button {
