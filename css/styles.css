@@ -13,8 +13,13 @@ color: #757575;
 ul {
     list-style: none;
 }
+
+a {
+    text-decoration: none;
+}
 /* logo*/
-.Web {
+
+.web {
     color: var(--bluebrand-clor);
     font-family: 'Raleway';
     font-style: normal;
@@ -23,8 +28,8 @@ ul {
     line-height: 1.19;
 }
 
-.Studio {
-    color: var();
+.studio {
+    color: var(--brand-color);
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -35,8 +40,6 @@ ul {
 /* nav */
 .site-nav .link {
     color: var(--brand-color);
-    text-decoration: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -48,10 +51,12 @@ ul {
     color: var(--bluebrand-clor);
 }
 
+.site-nav .link:active {
+    color: var(--bluebrand-clor);
+}
+
 .auth-nav .link {
     color: var(--discription-color);
-    text-decoration: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -66,8 +71,8 @@ ul {
     background-color:#2F303A;
 }
 .hero-title {
+    text-transform: uppercase;
     color: #FFFFFF;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -76,7 +81,6 @@ ul {
 .hero-button {
     color: #FFFFFF;
     background-color: var(--bluebrand-clor);
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -91,9 +95,14 @@ ul {
     line-height: 1.14;
 }
 
+.particular-txt {
+    color: var(--discription-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
 .work-title {
     color: var(--brand-color);
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -106,7 +115,6 @@ ul {
 
 .team-titel {
     color: var(--brand-color);
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -114,7 +122,6 @@ ul {
 
 .name {
     color: var(--brand-color); 
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -127,17 +134,12 @@ ul {
 
 .street {
     color: #FFFFFF;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
 
 .address-page .link {
-    color: var(--discription-color);
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
+    color:rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
 }
@@ -150,7 +152,6 @@ ul {
 .main-button {
     color:var(--brand-color) ;
     background-color: #F5F4FA;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -164,7 +165,6 @@ ul {
 
 .project-titel{
     color: var(--brand-color);
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
