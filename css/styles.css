@@ -47,7 +47,7 @@ a {
 
 
 .site-nav .link:hover,
-.site-nav .link:focus
+.site-nav .link:focus,
 .site-nav .link:active {
     color: var(--bluebrand-clor);
 }
