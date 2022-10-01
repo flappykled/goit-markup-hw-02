@@ -130,6 +130,7 @@ a {
 /* footer */
 .page-footer {
     background-color: #2F303A;
+    font-style: normal;
 }
 
 .street {
