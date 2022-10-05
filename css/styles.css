@@ -38,6 +38,14 @@ a {
 }
 
 /* nav */
+
+.countainer {
+    width: 1200px;
+    padding-left: 15;
+    padding-right: 15;
+    margin: 0 auto;
+}
+
 .site-nav .link {
     color: var(--brand-color);
     font-weight: 500;
@@ -66,6 +74,8 @@ a {
 .auth-nav .link:focus {
     color: var(--bluebrand-clor);
 }
+
+
 
 .hero {
     background-color:#2F303A;
